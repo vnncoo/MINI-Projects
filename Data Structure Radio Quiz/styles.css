@@ -1,0 +1,9 @@
+* {
+    font-family: sans-serif;
+}
+.questions {
+    display: inline-block;
+    float: inherit; 
+    text-align: end;
+    
+}
