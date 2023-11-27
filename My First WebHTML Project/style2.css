@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/hoodiebg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 3%;
+    padding-right: 3%;
+    box-sizing: border-box;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    height: 30px;
+}
+.navbar {
+    height: auto;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+.logo {
+    width: 100px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+.menu-icon {
+    padding-right: 20px;
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+h1{
+    color: #fff;
+    font-size: 30px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.hoodie {
+    height: 200px;
+    max-width: inherit;
+}
